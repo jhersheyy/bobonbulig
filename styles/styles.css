@@ -1,19 +1,8 @@
-/*
- *
- * CSS written based on SMACSS architecture.
- * To learn more, visit: http://smacss.com/
- * 
- * For simplicity, no reset or normalize is added. 
- * To learn more, visit: https://css-tricks.com/reboot-resets-reasoning/
- *
-*/
-
-
 /* ---- Base Rules ---- */
 body {
     background: rgb(5, 61, 34);
     background: linear-gradient(0.5turn,rgb(154, 196, 135), rgb(5, 61, 34) );
-    margin: 0;
+    margin: 10px;
     font-family: 'Merriweather', serif;
     color: #fff;
 }
@@ -24,7 +13,7 @@ h1 {
     font-family: 'Tinos', serif;
     /* font-family: 'Fira Sans', sans-serif; */
     font-size: 3em;
-    margin: 5em 1rem 1em;
+    margin: 15px;
     color: rgb(255, 255, 255);
 }
 
@@ -72,7 +61,7 @@ section {
     /* text-align: center; */
     width: 30vw;
     margin: auto;
-    padding: 5px;
+    padding: 20px;
 }
 
 #headerbanner{
@@ -83,7 +72,40 @@ section {
 .center{
     text-align:center;
 }
+.newsbox{
+    background-color: rgba(255, 255, 255, 0);
+    border: white 2px solid;
+    text-align: justify;
+}
 
+.twocol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery{ /*single row*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.smallimg{
+    height: 50px;
+}
+
+.quotebox{
+    background-color:rgba(5, 61, 34, 0.5);
+    color: white;
+    width: 60vw;
+    margin: auto;
+}
+
+.vertical{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
@@ -91,7 +113,9 @@ section {
 .navbar__menu ul {
     padding-left: 0;
     margin: 50;
-    text-align: right;
+    /* text-align: right; */
+    justify-content: space-evenly;
+    color: white;
 }
 
 .navbar__menu li {
@@ -127,8 +151,8 @@ section {
 /* Header Styles */
 .page__header {
     /* background: linear-gradient(rgb(230, 221, 171),white); */
+    background-color: rgb(137, 172, 121);
     position: fixed;
-    color: white;
     top: 0;
     width: 100%;
     z-index: 5;

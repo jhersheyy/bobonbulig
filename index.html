@@ -7,7 +7,7 @@
   <title>Bulig Foundation</title>
   <!-- Load Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  
-  
+
   <!-- Load Styles -->
   <link href="styles/styles.css" rel="stylesheet">
 </head>
@@ -21,38 +21,59 @@
     </nav>
   </header>
   <main>
-    <header class="main__hero center">
+    <div class="main__hero center">
         <img src="photos/logo.jpg" alt="Bulig Foundation logo" id="headerlogo">
         <img src="photos/banner.jpg" alt="images of Bobon with Ghandi quote" id="headerbanner">
-      <h1>Welcome</h1>
-    </header>
+    </div> 
+    <h1><em>Welcome</em></h1>
+    
     <!-- Each Section has an ID (used for the anchor) and 
     a data attribute that will populate the li node.
     Adding more sections will automatically populate nav.
     The first section is set to active class by default -->
-    <section id="section1" data-nav="Section 1" >
-      <div class="landing__container">
-        <h2>Section 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
-
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+    <section id="section1" data-nav="Home" >
+      <div class="landing__container two_col">
+          <div>
+              <h2>About Bulig Foundation</h2>
+              <p>Bulig Foundation is a Nonprofit Public Benefit Corporation and a tax exempt 501c3 charitable organization. Its purpose is to provide assistance to individuals and families in underserved communities to uplift their social and economic condition, provide financial assistance in education, improve health through Medical, surgical, dental and wellness missions and provide relief and assistance to victims in times of disasters.</p>
+          </div>
+          <div>
+              <div class="newsbox">
+                <h2>Medical, Dental and Wellness Mission in January 2019</h2>
+                <p>In January 2019, we will be conducting a medical, dental and wellness mission in Northern Samar. We are accepting donations for this mission. Your donation will help in the purchase of medicines, vitamins, medical supplies and medical equipment</p>
+              </div>
+          </div>
       </div>
     </section>
-    <section id="section2" data-nav="Tester 2">
-      <div class="landing__container">
-        <h2>Section 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
-
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+    <section id="section2" data-nav="Recent Photos">
+      <div class="landing__container gallery">
+        <img src="photos/img1.jpg" class="smallimg">
+        <img src="photos/img2.jpg" class="smallimg">
+        <img src="photos/img3.jpg" class="smallimg">
+        <img src="photos/img4.jpg" class="smallimg">
       </div>
     </section>
-    <section id="section3" data-nav="Section 3">
-      <div class="landing__container">
-        <h2>Section 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
-
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
-      </div>
+    <section id="section3" data-nav="Mission & Vision">
+        <div class="landing__container two_col">
+            <div>
+                <h2>Mission & Vision</h2>
+                <div class="two_col">
+                    <div class="wideblock">
+                        <h3>Our Mission</h3>
+                        <p>To assist in education, uplift Social, Economic, Health and living condition of individuals and families in underserved and impoverished communities</p>
+                        <h3>Our Vision</h3>
+                        <p>To make a difference in the lives of individuals and families one person or family at a time.</p>
+                    </div>
+                    <div class="vertical">
+                        <img src="photos/img5.jpg" class="smallimg">
+                        <img src="photos/img6.jpg" class="smallimg">
+                    </div>
+                </div>
+            </div>
+            <div class="quotebox">
+                <p>“"The smallest act of kindness is worth more than the grandest intention".- Oscar Wilde</p>
+            </div>
+        </div>
     </section>
   </main>
   <footer class="page__footer">
