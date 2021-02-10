@@ -20,7 +20,7 @@ h1 {
 @media only screen and (min-width: 422px){
     h1 {
         font-size: 5em;
-        margin: 2em 3rem 1em;
+        margin: 15px;
     }
 }
 
@@ -78,7 +78,7 @@ section {
     text-align: justify;
 }
 
-.twocol{
+.two_col{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,7 +91,7 @@ section {
 }
 
 .smallimg{
-    height: 50px;
+    width: 15vw;
 }
 
 .quotebox{
