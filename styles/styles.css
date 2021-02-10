@@ -73,9 +73,15 @@ section {
     text-align:center;
 }
 .newsbox{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.6);
     border: white 2px solid;
     text-align: justify;
+}
+
+.wideblock{
+    width:70%;
+    padding: 5px;
+    margin: 15px;
 }
 
 .two_col{
@@ -92,12 +98,14 @@ section {
 
 .smallimg{
     width: 15vw;
+    margin:10px;
 }
 
 .quotebox{
     background-color:rgba(5, 61, 34, 0.5);
     color: white;
     width: 60vw;
+    padding: 5px;
     margin: auto;
 }
 
