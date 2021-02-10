@@ -11,8 +11,8 @@
 
 /* ---- Base Rules ---- */
 body {
-    background: rgb(136,203,171);
-    background: linear-gradient(0deg, rgb(152, 203, 216) 0%, rgb(60, 99, 151) 100%);
+    background: rgb(5, 61, 34);
+    background: linear-gradient(0.5turn, rgb(5, 61, 34), (154, 196, 135));
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
@@ -21,10 +21,10 @@ body {
 
 /* Typeography General*/
 h1 {
-    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
     font-size: 3em;
     margin: 5em 1rem 1em;
-    color: rgb(235, 228, 189);
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 422px){
@@ -36,7 +36,7 @@ h1 {
 
 
 h2 {
-    border-bottom: 1.5px solid rgb(255, 238, 0);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
@@ -44,11 +44,11 @@ h2 {
 
 p {
     line-height: 1.6em;
-    color: #eee;
+    color: rgb(255, 255, 255);
 }
 
 a {
-    color: rgb(60, 96, 161)
+    color: rgb(37, 80, 42)
 }
 
 /* ---- Layout Rules ---- */
@@ -68,9 +68,10 @@ section {
  
 /*-----new id styling-----*/
 #headerlogo{
-    text-align: center;
+    /* text-align: center; */
     width: 30vw;
-    margin: 15px;
+    margin: auto;
+    padding: 5px;
 }
 
 #headerbanner{
