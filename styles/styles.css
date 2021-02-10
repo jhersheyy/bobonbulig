@@ -12,7 +12,7 @@
 /* ---- Base Rules ---- */
 body {
     background: rgb(5, 61, 34);
-    background: linear-gradient(0.5turn, rgb(5, 61, 34), (154, 196, 135));
+    background: linear-gradient(0.5turn,rgb(154, 196, 135), rgb(5, 61, 34) );
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
@@ -21,6 +21,7 @@ body {
 
 /* Typeography General*/
 h1 {
+    font-family: 'Tinos', serif;
     /* font-family: 'Fira Sans', sans-serif; */
     font-size: 3em;
     margin: 5em 1rem 1em;
@@ -75,7 +76,12 @@ section {
 }
 
 #headerbanner{
-    height: 300px;
+    /* height: 300px; */
+    width: 80vw;
+}
+/*----new classes----*/
+.center{
+    text-align:center;
 }
 
 /* ---- Module Rules ---- */
@@ -120,8 +126,9 @@ section {
 
 /* Header Styles */
 .page__header {
-    background: linear-gradient(rgb(230, 221, 171),white);
+    /* background: linear-gradient(rgb(230, 221, 171),white); */
     position: fixed;
+    color: white;
     top: 0;
     width: 100%;
     z-index: 5;
