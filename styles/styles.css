@@ -111,9 +111,10 @@ section {
 }
 
 .quotebox{
-    background-color:rgba(5, 61, 34, 0.5);
+    background-color:rgba(143, 13, 41, 0.5);
     color: white;
     width: 40vw;
+    height:100%;
     padding: 5px;
     margin: auto;
 }
