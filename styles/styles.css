@@ -1,13 +1,16 @@
 /* ---- Base Rules ---- */
 body {
     background: rgb(5, 61, 34);
-    background: linear-gradient(0.5turn,rgb(154, 196, 135), rgb(5, 61, 34) );
+    background: linear-gradient(0.5turn,rgb(255,255,255),rgb(154, 196, 135));
     margin: 10px;
-    font-family: 'Merriweather', serif;
-    color: #fff;
+    font-family: 'Tinos', serif;
+    color: rgb(11, 24, 0);
 }
 
-
+div{
+    padding: 10px;
+    margin: 10px;
+}
 /* Typeography General*/
 h1 {
     font-family: 'Tinos', serif;
@@ -101,6 +104,11 @@ section {
     margin:10px;
 }
 
+.medimg{
+    width: 25vw;
+    margin: 5px;
+}
+
 .quotebox{
     background-color:rgba(5, 61, 34, 0.5);
     color: white;
@@ -188,7 +196,7 @@ section {
 @media only screen and (min-width: 35em){
     .landing__container {
         max-width: 50em;
-        padding: 1em 4em 4em;
+        /* padding: 1em 4em 4em; */
     }
 }
 
