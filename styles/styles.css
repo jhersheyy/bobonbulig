@@ -59,6 +59,9 @@ section {
     /* min-height: 80vh; */
 }
  
+blockquote{
+    margin: auto 0px;
+}
 /*-----new id styling-----*/
 #headerlogo{
     /* text-align: center; */
