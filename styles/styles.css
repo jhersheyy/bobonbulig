@@ -126,8 +126,11 @@ blockquote{
 }
 
 .medimg{
-    width: 25vw;
+    width: 18%;
     margin: 5px;
+}
+.fullwidth{
+    width: 100vw;
 }
 
 .vertical{
