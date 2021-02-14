@@ -166,7 +166,7 @@ blockquote{
 
 @media (hover:hover){
     .navbar__menu .menu__link:hover {
-        background: rgb(158, 147, 224);
+        background: rgb(18, 12, 54);
         color: #fff;
         transition: ease 0.3s all;
     }
