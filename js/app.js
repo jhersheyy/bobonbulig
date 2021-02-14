@@ -20,29 +20,12 @@
 */
 const titles = [];
 const anchors= [];
-const sectionText = `  <section id="section4" data-nav="Section 4">
-<div class="landing__container">
-  <h2>Section 4</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
 
-  <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
-</div>
-</section>`;
 const navBar = document.querySelector('#navbar__list'); //get empty ul "#navbar__list"
 
 /**
  * End Global Variables
  * 
- * Adding Fourth HTML Section
- *
-*/
-
-//adding last section
-
-const lastSection = document.getElementById('section3');
-lastSection.insertAdjacentHTML("afterend", sectionText);
-
-/**
  * Start Helper Functions
  * 
 */
@@ -104,10 +87,15 @@ function activateViewed(){//testing hovering and menulinks
 
 navBar.addEventListener('click', function scrollToSection(e){
     let sectionName = e.target.getAttribute('id').slice(5); //get rid of list id prefix (link_xxx)
-    let secInfo =  document.querySelector('#'+sectionName).getBoundingClientRect();
-    window.scrollTo({
-        top: secInfo.top + window.pageYOffset-180,
-        behavior: 'smooth'});
+    if (sectionName[0] == "p"){
+        location.href="../programs.html";
+    }
+    else{
+        let secInfo =  document.querySelector('#'+sectionName).getBoundingClientRect();
+        window.scrollTo({
+            top: secInfo.top + window.pageYOffset-180,
+            behavior: 'smooth'});
+    }
     
 });
 
