@@ -88,8 +88,8 @@ function activateViewed(){//testing hovering and menulinks
 navBar.addEventListener('click', function scrollToSection(e){
     let sectionName = e.target.getAttribute('id').slice(5); //get rid of list id prefix (link_xxx)
     if (sectionName[0] == "p"){
-        location.href="../programs.html";//<a class="sblink" href="html_files/about.html">ABOUT</a>
-        window.open("../programs.html, __blank)");
+        // location.href="../programs.html";//<a class="sblink" href="html_files/about.html">ABOUT</a>
+        window.open("views/programs.html, __blank)");
     }
     else{
         let secInfo =  document.querySelector('#'+sectionName).getBoundingClientRect();
