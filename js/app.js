@@ -89,7 +89,7 @@ navBar.addEventListener('click', function scrollToSection(e){
     let sectionName = e.target.getAttribute('id').slice(5); //get rid of list id prefix (link_xxx)
     if (sectionName[0] == "p"){
         // location.href="../programs.html";//<a class="sblink" href="html_files/about.html">ABOUT</a>
-        window.open("bobonbulig/views/programs.html", "__blank)");
+        window.open("/views/programs.html", "__blank)");
     }
     else{
         let secInfo =  document.querySelector('#'+sectionName).getBoundingClientRect();
