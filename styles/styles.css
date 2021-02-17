@@ -122,12 +122,12 @@ blockquote{
 }
 
 .smallimg{
-    width: 15vw;
+    width: 100px;
     margin:10px;
 }
 
 .medimg{
-    width: 18vw;
+    width: 150px;
     margin: 5px;
 }
 .fullwidth{
