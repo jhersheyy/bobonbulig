@@ -1,5 +1,5 @@
 /* ---- Base Rules ---- */
-/* *{border: red 2px solid;} */
+*{border: red 2px solid;}
 body {
     background: rgb(5, 61, 34);
     background: linear-gradient(0.5turn,rgb(255, 255, 255),rgb(154, 196, 135));
