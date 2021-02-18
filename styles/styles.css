@@ -112,7 +112,7 @@ blockquote{
     width:100%;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* justify-content: space-between; */
 }
 
