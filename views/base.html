@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  
 
   <!-- Load Styles -->
-  <link href="styles/styles.css" rel="stylesheet">
+  <link href="../styles/styles.css" rel="stylesheet">
 </head>
 <body>
   <!-- HTML Follows BEM naming conventions 
@@ -17,13 +17,13 @@
   <header class="page__header">
     <nav class="navbar__menu">
      <ul id="navbar__list">
-          <li class="navbar__menu menu__link" id="home"><a href="index.html" target="__blank)">Home</a></li>
-          <li class="navbar__menu menu__link" id="mission"><a href="views/mission.html" target="__blank)">Mission & Vision</a></li>
-          <li class="navbar__menu menu__link" id="programs"><a href="views/programs.html" target="__blank)">Community Programs</a></li>
-          <li class="navbar__menu menu__link" id="news"><a href="views/news.html" target="__blank)">News & Events</a></li>
-          <li class="navbar__menu menu__link" id="gallery"><a href="views/gallery.html" target="__blank)">Gallery</a></li>
-          <li class="navbar__menu menu__link" id="donate"><a href="views/donate.html" target="__blank)">Donate</a></li>
-          <li class="navbar__menu menu__link" id="contact"><a href="views/contact.html" target="__blank)">Contact Us</a></li>
+          <li class="navbar__menu menu__link" id="home"><a href="../index.html" target="__blank)">Home</a></li>
+          <li class="navbar__menu menu__link" id="mission"><a href="../views/mission.html" target="__blank)">Mission & Vision</a></li>
+          <li class="navbar__menu menu__link" id="programs"><a href="../views/programs.html" target="__blank)">Community Programs</a></li>
+          <li class="navbar__menu menu__link" id="news"><a href="../views/news.html" target="__blank)">News & Events</a></li>
+          <li class="navbar__menu menu__link" id="gallery"><a href="../views/gallery.html" target="__blank)">Gallery</a></li>
+          <li class="navbar__menu menu__link" id="donate"><a href="../views/donate.html" target="__blank)">Donate</a></li>
+          <li class="navbar__menu menu__link" id="contact"><a href="../views/contact.html" target="__blank)">Contact Us</a></li>
         </ul>
     </nav>
   </header>
@@ -32,20 +32,9 @@
         <img src="../photos/logo.png" alt="Bulig Foundation logo" id="headerlogo">
         <img src="../photos/banner.jpg" alt="images of Bobon with Ghandi quote" id="headerbanner">
     </div> 
-    <section id="section1" data-nav="Home" >
-      <div class="landing__container two_col">
-      </div>
-    </section>
-    <section id="section2" data-nav="Recent Photos">
-      <div class="landing__container gallery fullwidth">
-      </div>
-    </section>
-    <section id="psection3" data-nav="Mission & Vision">
-        <div class="landing__container two_col">
-            <div>
-            </div>
-        </div>
-    </section>
+    {% block content %}
+    {% endblock %}
+    
   </main>
   <footer class="page__footer">
     <p>&copy Udacity</p>
