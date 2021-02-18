@@ -99,19 +99,19 @@ blockquote{
     color: white;
     font-style: italic;
     margin: auto 0px; 
-    font-size: xx-large;
+    font-size: x-large;
 }
 
-.wideblock{
+/* .wideblock{
     width:70%;
     padding: 5px;
     margin: 15px;
-}
+} */
 
 .two_col{
     width:100%;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     /* flex-direction: row; */
     /* justify-content: space-between; */
 }
