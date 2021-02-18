@@ -1,5 +1,6 @@
 /* ---- Base Rules ---- */
 *{border: red 2px solid;}
+
 body {
     background: rgb(5, 61, 34);
     background: linear-gradient(0.5turn,rgb(255, 255, 255),rgb(154, 196, 135));
@@ -12,6 +13,11 @@ div{
     padding: 10px;
     margin: 10px;
 }
+
+blockquote{
+    margin: auto 0px;
+}
+
 /* Typeography General*/
 h1 {
     font-family: 'Tinos', serif;
@@ -60,10 +66,8 @@ section {
     /* min-height: 80vh; */
 }
  
-blockquote{
-    margin: auto 0px;
-}
-/*-----new id styling-----*/
+
+/*-----id styling-----*/
 #headerlogo{
     /* text-align: center; */
     width: 30vw;
@@ -75,7 +79,7 @@ blockquote{
     /* height: 300px; */
     width: 80vw;
 }
-/*----new classes----*/
+/*----classes----*/
 .center{
     text-align:center;
 }
@@ -109,7 +113,7 @@ blockquote{
 }
 
 .two_col{
-    width:100%;
+    width:80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -139,7 +143,6 @@ blockquote{
     flex-direction: column;
     justify-content: space-between;
 }
-/* ---- Module Rules ---- */
 
 /* Navigation Styles*/
 
