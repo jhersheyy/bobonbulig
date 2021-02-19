@@ -75,6 +75,8 @@ blockquote{
     /* height: 300px; */
     width: 80vw;
 }
+
+
 /*----new classes----*/
 .center{
     text-align:center;
@@ -98,8 +100,14 @@ blockquote{
     background-color: rgba(5, 61, 34, 0.5);
     color: white;
     font-style: italic;
+    padding: 30px 5px;
     margin: auto 0px; 
     font-size: x-large;
+}
+
+.widequote{
+    padding: 10px 25px;
+    margin: auto;
 }
 
 .wideblock{
@@ -146,6 +154,8 @@ blockquote{
     /* height: 400px;
     width: 180px;
     margin: 15px; */
+    margin: 10px;
+    padding: 5px;
     position: relative;
     font-size: 0.95em;
 }
