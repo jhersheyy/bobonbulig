@@ -139,6 +139,16 @@ blockquote{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.card{
+    border: 5px solid white;
+    border-radius: 10%;
+    height: 400px;
+    width: 180px;
+    margin: 15px;
+    position: relative;
+    font-size: 0.95em;
+}
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
