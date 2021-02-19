@@ -106,8 +106,8 @@ blockquote{
 }
 
 .widequote{
-    padding: 10px 25px;
-    margin: auto;
+    padding: 10px 50px;
+    /* margin: auto 25vw; */
 }
 
 .wideblock{
