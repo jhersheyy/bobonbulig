@@ -102,11 +102,11 @@ blockquote{
     font-size: x-large;
 }
 
-/* .wideblock{
-    width:70%;
-    padding: 5px;
-    margin: 15px;
-} */
+.wideblock{
+    width:45%;
+    /* padding: 5px; */
+    /* margin: 15px; */
+}
 
 .two_col{
     width:100%;
@@ -211,18 +211,18 @@ blockquote{
     text-align: left;
 }
 
-@media only screen and (min-width: 35em){
+/* @media only screen and (min-width: 35em){
     .landing__container {
         max-width: 80vw;
-        /* padding: 1em 4em 4em; */
+        /* padding: 1em 4em 4em; /
     }
-}
+ } */
 
-section:nth-of-type(even) .landing__container {
+/* section:nth-of-type(even) .landing__container {
     margin-right: 0;
     margin-left: auto;
     text-align: right; 
-}
+} */
 
 /* Background Circles */
 /* Note that background circles are created with psuedo elements before and after */
