@@ -107,7 +107,7 @@ blockquote{
 
 .widequote{
     padding: 10px 50px;
-    margin: auto 25vw;
+    margin: auto 10vw;
 }
 
 .wideblock{
@@ -129,7 +129,7 @@ blockquote{
     justify-content: space-evenly;
 }
 
-.smallimg{
+.shortimg{
     height: 100px;
     margin:10px;
 }
@@ -137,6 +137,10 @@ blockquote{
 .medimg{
     width: 150px;
     margin: 5px;
+}
+
+.medtallimg{
+    height:130px;
 }
 .fullwidth{
     width: 100%;
