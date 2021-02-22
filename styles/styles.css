@@ -76,8 +76,30 @@ blockquote{
     width: 80vw;
 }
 
+#ruby{
+    grid-area: "first";
+}
 
+#volunteer{
+    grid-area: "second";
+}
+
+#awareness{
+    grid-area: "third";
+}
 /*----new classes----*/
+
+.offset{
+    display: grid;
+    grid-template-areas: 
+        "first first blank blank"
+        "first first second second"
+        "blank blank second second"
+        "third third second second"
+        "third third blank blank";
+
+}
+
 .center{
     text-align:center;
 }
