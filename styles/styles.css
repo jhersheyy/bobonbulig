@@ -78,15 +78,23 @@ blockquote{
 
 #ruby{
     grid-area: "first";
+    background-color: red;
 }
 
 #volunteer{
     grid-area: "second";
+    background-color: yellow;
 }
 
 #awareness{
     grid-area: "third";
+    background-color: violet;
 }
+
+.blank{
+    grid-area: "blank";
+}
+
 /*----new classes----*/
 
 .offset{
