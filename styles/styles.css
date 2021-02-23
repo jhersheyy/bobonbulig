@@ -100,13 +100,13 @@ blockquote{
 .offset{
     display: grid;
     grid-template-columns: 60% 30%;
-
+    grid-template-rows: min-content;
     grid-template-areas: 
-        "first first blanke blanke"
+        "first first blank blank"
         "first first second second"
-        "blanke blanke second second"
+        "blank blank second second"
         "third third second second"
-        "third third blanke blanke";
+        "third third blank blank";
 
 }
 
