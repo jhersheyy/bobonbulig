@@ -102,11 +102,11 @@ blockquote{
     grid-template-columns: 60% 30%;
     grid-template-rows: min-content;
     grid-template-areas: 
-        "first first blank blank"
+        "first first . ."
         "first first second second"
-        "blank blank second second"
+        ". . second second"
         "third third second second"
-        "third third blank blank";
+        "third third . .";
 
 }
 
