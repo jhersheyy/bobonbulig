@@ -180,6 +180,11 @@ blockquote{
 .medtallimg{
     height:130px;
 }
+
+.tallimg{
+    height: 250px;
+    margin: 5px;
+}
 .fullwidth{
     width: 100%;
 }
