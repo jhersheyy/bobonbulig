@@ -184,6 +184,9 @@ blockquote{
     width: 100%;
 }
 
+.outerspace{
+    padding: 10px;
+}
 .vertical{
     display:flex;
     flex-direction: column;
