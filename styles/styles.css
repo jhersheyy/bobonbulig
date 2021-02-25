@@ -220,7 +220,7 @@ blockquote{
 
 .navbar__menu ul {
     padding-left: 0;
-    margin: 50px;
+    margin: 50;
     /* text-align: right; */
     justify-content: space-evenly;
     color: white;
