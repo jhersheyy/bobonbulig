@@ -101,6 +101,12 @@ blockquote{
     grid-row: 3 / span 4;
 }
 
+#donationmsg{
+    height: 80%;
+    font-style: normal;
+    
+}
+
 /*----new classes----*/
 
 .offset{
