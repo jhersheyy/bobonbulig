@@ -190,6 +190,10 @@ blockquote{
     width: 100%;
 }
 
+.halfscreen{
+    width:50vw;
+}
+
 .imgcap{
     max-width: 80%;
 }
