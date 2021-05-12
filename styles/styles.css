@@ -6,7 +6,9 @@
 body {
     background: rgb(5, 61, 34);
     background: linear-gradient(0.5turn,rgb(255, 255, 255),rgb(154, 196, 135));
+    width: 90vw;
     margin: 10px;
+    padding: 5px;
     font-family: 'Tinos', serif;
     font-size: 0.93em;
     color: rgb(11, 24, 0);
@@ -63,6 +65,10 @@ blockquote{
 #headerbanner{
     /* height: 300px; */
     width: 80vw;
+}
+
+#navbar__list{
+    justify-content: space-evenly;
 }
 
 #donate{
@@ -227,8 +233,8 @@ blockquote{
 }
 
 .navbar__menu .menu__link {
-    display: block;
-    padding: 1em;
+    display: inline-flex;
+    padding: 0.5em;
     font-weight: bold;
     text-decoration: none;
     color: #000;
