@@ -43,7 +43,7 @@ a {
 }
 
 main {
-    margin: 10vh 1em 10vh;
+    margin: 160px 0px 0px;
 }
 
 section {
@@ -55,16 +55,16 @@ blockquote{
     margin: auto 0px;
 }
 
-#headerlogo{
+#headerlogo {
     /* text-align: center; */
-    width: 30%;
+    width: 55%;
     margin: auto;
-    padding: 20px;
+    padding: 10px 20px 5px;
 }
 
 #headerbanner{
     /* height: 300px; */
-    width: 80%;
+    width: 100%;
 }
 
 #navbar__list{
