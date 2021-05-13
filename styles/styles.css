@@ -123,7 +123,7 @@ blockquote{
     border: 8px white double;
     width: 70%; /*width: 40%;*/
     line-height: 2em;
-    padding: 25px;
+    padding: 10px;
     margin: 15px auto;
 }
 
@@ -283,7 +283,7 @@ blockquote{
 .landing__container {
     padding: 1em;
     text-align: left;
-    width: 90%;
+    width: 80%;
 }
 
 /* @media only screen and (min-width: 35em){
