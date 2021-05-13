@@ -7,7 +7,7 @@ body {
     background: rgb(5, 61, 34);
     background: linear-gradient(0.5turn,rgb(255, 255, 255),rgb(154, 196, 135));
     width: 90vw;
-    margin: 10px;
+    margin: 10px auto;
     padding: 5px;
     font-family: 'Tinos', serif;
     font-size: 0.93em;
@@ -118,13 +118,13 @@ blockquote{
     text-align:center;
 }
 
-.sidebox{
+.sidebox {
     border-radius: 30px;
     border: 8px white double;
-    width: 40%;
+    width: 70%; /*width: 40%;*/
     line-height: 2em;
     padding: 25px;
-    margin: 15px;
+    margin: 15px auto;
 }
 
 .newsbox{
@@ -261,6 +261,7 @@ blockquote{
     left:0;
     width: 100%;
     z-index: 5;
+    text-align: center;
 }
 
 .page__footer {
