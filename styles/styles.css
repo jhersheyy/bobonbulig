@@ -28,9 +28,10 @@ h1 {
 
 h2 {
     border-bottom: 1.5px solid rgb(11, 24, 0);
-    font-family: 'Oxygen', Sans-Serif;
+    font-family: 'Tinos', serif;
     font-size: 2.5em;
     color: rgb(11, 24, 0);
+    margin: 10px;
 }
 
 p {
@@ -99,11 +100,13 @@ blockquote{
 #donationmsg{
     height: 80%;
     font-style: normal;
+    line-height: 1.6;
 }
 
 .offset{
-    display: grid;
-    grid-template-columns: 50% 30%;
+    margin: auto;
+    /*display: grid;
+    grid-template-columns: 50% 30%;*/
     /* grid-template-rows: repeat(5,15%); */
     /* grid-template-areas: 
         "first ."
@@ -111,7 +114,7 @@ blockquote{
         "..... second"
         "third second"
         "third .";
-*/
+*/    
 } 
 
 .center{
@@ -136,13 +139,14 @@ blockquote{
     background-color: rgba(5, 61, 34, 0.5);
     color: white;
     font-style: italic;
-    padding: 30px 5px;
+    padding: 15px 5px; /*30px 5px;*/
     margin: auto 0px; 
     font-size: x-large;
 }
 
 .widequote{
-    padding: 10px 50px;
+    padding: 10px 15px;
+    /* padding: 10px 50px; */
     margin: auto 10%;
 }
 
@@ -190,12 +194,13 @@ blockquote{
     height: 250px;
     margin: 5px;
 }
+
 .fullwidth{
     width: 100%;
 }
 
 .halfscreen{
-    width:50%;
+    width:50vw;
 }
 
 .imgcap{
@@ -205,6 +210,7 @@ blockquote{
 .outerspace{
     padding: 10px;
 }
+
 .vertical{
     display:flex;
     flex-direction: column;
@@ -218,6 +224,7 @@ blockquote{
     /* height: 400px;
     width: 180px;
     margin: 15px; */
+    margin: 15px auto;
     margin: 25px;
     padding: 5px;
     position: relative;
@@ -281,7 +288,7 @@ blockquote{
 
 
 .landing__container {
-    padding: 1em;
+    /* padding: 1em; */
     text-align: left;
     width: 80%;
 }
