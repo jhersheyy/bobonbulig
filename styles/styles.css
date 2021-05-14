@@ -34,6 +34,10 @@ h2 {
     margin: 10px;
 }
 
+h4 {
+    margin: 0;
+}
+
 p {
     line-height: 1.6em;
     color: rgb(11, 24, 0);
@@ -100,6 +104,7 @@ blockquote{
 #donationmsg{
     height: 80%;
     font-style: normal;
+    font-size: 1em;
     line-height: 1.6;
 }
 
@@ -140,7 +145,7 @@ blockquote{
     color: white;
     font-style: italic;
     padding: 15px 5px; /*30px 5px;*/
-    margin: auto 0px; 
+    /* margin: auto 0px;  */
     font-size: x-large;
 }
 
@@ -176,9 +181,13 @@ blockquote{
     margin: 5px auto;
 }
 
-.shortimg{
+/* .shortimg{
     height: 100px;
     margin:10px auto;
+} */
+.shortimg {
+    width: 80%;
+    margin: 10px auto;
 }
 
 .medimg{
@@ -215,17 +224,18 @@ blockquote{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: auto;
 }
 
 .card{
     border: 5px solid white;
     border-radius: 10%;
-    width: 50%;
+    /* width: 50%; */
     /* height: 400px;
     width: 180px;
     margin: 15px; */
-    margin: 15px auto;
-    margin: 25px;
+    /* margin: 15px auto; */
+    /* margin: 25px; */
     padding: 5px;
     position: relative;
     font-size: 0.95em;
@@ -271,7 +281,7 @@ blockquote{
     position: fixed;
     top: 0;
     left:0;
-    width: 100%;
+    width: 100vw;
     z-index: 5;
     text-align: center;
 }
@@ -280,6 +290,7 @@ blockquote{
     background: rgb(137, 172, 121);
     padding: 1em;;
     color: #fff;
+    margin-top: 15px;
 }
 
 .page__footer p{
@@ -291,6 +302,7 @@ blockquote{
     /* padding: 1em; */
     text-align: left;
     width: 80%;
+    margin:auto;
 }
 
 /* @media only screen and (min-width: 35em){
