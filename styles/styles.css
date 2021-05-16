@@ -126,15 +126,6 @@ blockquote{
     text-align:center;
 }
 
-.sidebox {
-    border-radius: 30px;
-    border: 8px white double;
-    width: 70%; /*width: 40%;*/
-    line-height: 2em;
-    padding: 10px;
-    margin: 15px auto;
-}
-
 .newsbox{
     background-color: rgba(154, 196, 135, 0.6);
     text-align: justify;
@@ -150,10 +141,13 @@ blockquote{
     font-size: x-large;
 }
 
-.widequote{
-    padding: 10px 15px;
-    /* padding: 10px 50px; */
-    /* margin: auto 10%; */
+.sidebox {
+    border-radius: 30px;
+    border: 8px white double;
+    width: 70%; /*width: 40%;*/
+    line-height: 2em;
+    padding: 10px;
+    margin: 15px auto;
 }
 
 .wideblock{
