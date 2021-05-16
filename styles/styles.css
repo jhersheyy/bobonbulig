@@ -1,7 +1,7 @@
 /* ---- Base Rules ---- */
 /* for minimum: 320 px*/
 
-*{border: red 2px solid;}
+/* *{border: red 2px solid;} */
 
 body {
     background: rgb(5, 61, 34);
@@ -138,6 +138,7 @@ blockquote{
 .newsbox{
     background-color: rgba(154, 196, 135, 0.6);
     text-align: justify;
+    border: 5px solid white;
 }
 
 .quotebox{
@@ -152,7 +153,7 @@ blockquote{
 .widequote{
     padding: 10px 15px;
     /* padding: 10px 50px; */
-    margin: auto 10%;
+    /* margin: auto 10%; */
 }
 
 .wideblock{
@@ -229,14 +230,15 @@ blockquote{
 
 .card{
     border: 5px solid white;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border-radius: 30px;
     /* width: 50%; */
     /* height: 400px;
     width: 180px;
     margin: 15px; */
     margin: 15px auto;
     /* margin: 25px; */
-    padding: 5px;
+    padding: 5px 10px;
     position: relative;
     font-size: 0.95em;
 }
