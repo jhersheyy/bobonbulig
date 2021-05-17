@@ -108,6 +108,16 @@ blockquote{
     line-height: 1.6;
 }
 
+#newsbox{
+    background-color: rgba(154, 196, 135, 0.6);
+    text-align: justify;
+    border: 5px solid white;
+}
+
+.logopic{
+    height: 1em;
+}
+
 .offset{
     margin: auto;
     /*display: grid;
@@ -124,12 +134,6 @@ blockquote{
 
 .center{
     text-align:center;
-}
-
-.newsbox{
-    background-color: rgba(154, 196, 135, 0.6);
-    text-align: justify;
-    border: 5px solid white;
 }
 
 .quotebox{
