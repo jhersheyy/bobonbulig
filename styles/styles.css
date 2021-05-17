@@ -114,8 +114,13 @@ blockquote{
     border: 5px solid white;
 }
 
+#footerblock{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .logopic{
-    height: 1em;
+    height: 2em;
 }
 
 .offset{
