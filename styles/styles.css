@@ -119,8 +119,11 @@ blockquote{
     justify-content: space-evenly;
 }
 
-.logopic{
+.logopic {
     height: 2em;
+    padding: 5px;
+    margin: 5px;
+    border: white solid 1px;
 }
 
 .offset{
