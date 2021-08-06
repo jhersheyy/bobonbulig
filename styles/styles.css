@@ -420,8 +420,15 @@ blockquote{
 	/* } */
 /* } */
 
-/* @media (min-width: 422px){
-    .navbar__menu .menu__link {
+@media (min-width: 425px){
+    /* .navbar__menu .menu__link {
+        display: inline;
+    } */
+    .two_col{
+        flex-wrap: nowrap ;
+    }
+
+    .vertical{
         display: inline;
     }
-} */
+}
