@@ -424,9 +424,9 @@ blockquote{
     /* .navbar__menu .menu__link {
         display: inline;
     } */
-    .two_col{
+    /* .two_col{
         flex-wrap: nowrap ;
-    }
+    } */
 
     .vertical{
         display: inline;
