@@ -421,14 +421,18 @@ blockquote{
 /* } */
 
 @media (min-width: 425px){
-    /* .navbar__menu .menu__link {
-        display: inline;
-    } */
-    /* .two_col{
-        flex-wrap: nowrap ;
-    } */
 
     .vertical{
         display: inline;
     }
+}
+
+@media (min-width: 524px){
+    .navbar__menu .menu__link {
+        font-size: 1.2em;;
+    }
+    .two_col{
+        flex-wrap: nowrap ;
+    }
+
 }
