@@ -456,6 +456,9 @@ blockquote{
     .vertical{
         display: inline;
     }
+    .galleryimg{
+        height: 15vh;
+    }
     #contactpage{
         margin-top: 100px;
         display: flex;
