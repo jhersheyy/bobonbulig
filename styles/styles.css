@@ -461,7 +461,7 @@ blockquote{
     }
     .wider{
         width: 45vw;
-        margin: 5px;
+        /* margin: 5px; */
     }
     .narrow{
         width: 30vw;
