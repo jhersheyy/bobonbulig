@@ -438,5 +438,11 @@ blockquote{
     .two_col{
         flex-wrap: nowrap ;
     }
+    .landing__container{
+        padding: 5px;
+    }
+    .shortimg{
+        width: 50%;
+    }
 
 }
