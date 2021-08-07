@@ -441,6 +441,9 @@ blockquote{
     .navbar__menu .menu__link {
         font-size: 1.2em;
     }
+    .sidebox{
+        width: 65vw;
+    }
     .two_col{
         flex-wrap: nowrap ;
     }
