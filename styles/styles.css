@@ -459,9 +459,17 @@ blockquote{
     .galleryimg{
         height: 15vh;
     }
+    .wider{
+        width: 45vw;
+        margin: 5px;
+    }
+    .narrow{
+        width: 30vw;
+    }
     #contactpage{
         margin-top: 100px;
         display: flex;
         flex-direction: column;
     }
+    
 }
