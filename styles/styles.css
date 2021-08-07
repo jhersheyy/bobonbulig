@@ -460,11 +460,11 @@ blockquote{
         height: 15vh;
     }
     .wider{
-        width: 45vw;
+        width: 45%;
         /* margin: 5px; */
     }
     .narrow{
-        width: 30vw;
+        width: 30%;
     }
     #contactpage{
         margin-top: 100px;
