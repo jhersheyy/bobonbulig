@@ -203,6 +203,12 @@ blockquote{
     margin: 5px;
 }
 
+.sideimg{
+    width: 30vw;
+    padding: 5px;
+    margin: 5px;
+}
+
 .medtallimg{
     height:130px;
 }
