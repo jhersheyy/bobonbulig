@@ -432,9 +432,9 @@ blockquote{
     .navbar__menu .menu__link {
         font-size: 1em;
     }
-    .vertical{
+    /* .vertical{
         display: inline;
-    }
+    } */
 }
 
 @media (min-width: 524px){
@@ -449,6 +449,9 @@ blockquote{
     }
     .shortimg{
         width: 45%;
+    }
+    .vertical{
+        display: inline;
     }
 
 }
