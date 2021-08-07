@@ -453,7 +453,7 @@ blockquote{
     .vertical{
         display: inline;
     }
-    #contact{
+    #contactpage{
         margin-top: 100px;
         display: flex;
         flex-direction: column;
