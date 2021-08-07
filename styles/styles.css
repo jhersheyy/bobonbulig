@@ -265,6 +265,7 @@ blockquote{
 .navbar__menu .menu__link {
     display: inline-flex;
     padding: 0.5em;
+    font-size: small;
     font-weight: bold;
     text-decoration: none;
     color: #000;
@@ -421,7 +422,9 @@ blockquote{
 /* } */
 
 @media (min-width: 425px){
-
+    .navbar__menu .menu__link {
+        font-size: 1em;
+    }
     .vertical{
         display: inline;
     }
@@ -429,7 +432,7 @@ blockquote{
 
 @media (min-width: 524px){
     .navbar__menu .menu__link {
-        font-size: 1.2em;;
+        font-size: 1.2em;
     }
     .two_col{
         flex-wrap: nowrap ;
