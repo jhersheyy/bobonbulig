@@ -278,6 +278,10 @@ blockquote{
     color: #000;
 }
 
+.wider{
+    width: 50%;
+}
+
 
 
 @media (hover:hover){
